@@ -13,8 +13,9 @@ LANGCHAIN_PROJECT=_projectname_
 ### 📂 Files & What They Do
 | File |💡 What it does |
 |------|--------------|
-| `simplemessage.py` | One-shot prompt → LLM → output (translate CLI demo). |
+| `simple_message.py` | One-shot prompt → LLM → output (translate CLI demo). |
 | `serve.py` | Same chain exposed as `/chain` via FastAPI & LangServe. |
-| `messageshistory.py` | Console chatbot that remembers the conversation. |
-| `messageshistorywithstreaming.py` | Same bot, but streams tokens as they arrive. |
-| `vectorestoreintro.py` | Load docs into Chroma and run similarity search. |
+| `messages_history.py` | Console chatbot that remembers the conversation. |
+| `messages_history_with_streaming.py` | Same bot, but streams tokens as they arrive. |
+| `vector_store_intro.py` | Load docs into Chroma and run similarity search. |
+| `vector_store_intro_with_llm.py	` | Combines vector search with an LLM to answer questions using context. |
