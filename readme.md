@@ -19,3 +19,4 @@ LANGCHAIN_PROJECT=_projectname_
 | `messages_history_with_streaming.py` | Same bot, but streams tokens as they arrive. |
 | `vector_store_intro.py` | Load docs into Chroma and run similarity search. |
 | `vector_store_intro_with_llm.py	` | Combines vector search with an LLM to answer questions using context. |
+| `rag_chain_with_web_loader.py`         | Fetches content from a webpage and uses RAG (retrieval-augmented generation) to answer questions. |
